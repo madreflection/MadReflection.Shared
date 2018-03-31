@@ -1,0 +1,33 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net20'">$(DefineConstants);NETFX;FULL;NET20_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net35'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net40'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net45'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net451'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net452'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS;NET452_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net46'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS;NET452_PLUS;NET46_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net461'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS;NET452_PLUS;NET46_PLUS;NET461_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net462'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS;NET452_PLUS;NET46_PLUS;NET461_PLUS;NET462_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net47'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS;NET452_PLUS;NET46_PLUS;NET461_PLUS;NET462_PLUS;NET47_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net471'">$(DefineConstants);NETFX;FULL;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS;NET45_PLUS;ASYNC;NEW_REFLECTION;NET451_PLUS;NET452_PLUS;NET46_PLUS;NET461_PLUS;NET462_PLUS;NET47_PLUS;NET471_PLUS</DefineConstants>
+
+    <DefineConstants Condition="'$(TargetFramework)' == 'net35-client'">$(DefineConstants);NETFX;CLIENT;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net40-client'">$(DefineConstants);NETFX;CLIENT;NET20_PLUS;NET35_PLUS;EXTENSION_METHODS;LINQ;NET40_PLUS</DefineConstants>
+
+    <DefineConstants Condition="'$(TargetFramework)' == 'netcoreapp1.0'">$(DefineConstants);COREFX;NETCOREAPP;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETCOREAPP1_0_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netcoreapp1.1'">$(DefineConstants);COREFX;NETCOREAPP;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETCOREAPP1_0_PLUS;NETCOREAPP1_1_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netcoreapp2.0'">$(DefineConstants);COREFX;NETCOREAPP;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETCOREAPP1_0_PLUS;NETCOREAPP1_1_PLUS;NETCOREAPP2_0_PLUS</DefineConstants>
+
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.0'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.1'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.2'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS;NETSTANDARD1_2_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.3'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS;NETSTANDARD1_2_PLUS;NETSTANDARD1_3_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.4'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS;NETSTANDARD1_2_PLUS;NETSTANDARD1_3_PLUS;NETSTANDARD1_4_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.5'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS;NETSTANDARD1_2_PLUS;NETSTANDARD1_3_PLUS;NETSTANDARD1_4_PLUS;NETSTANDARD1_5_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.6'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS;NETSTANDARD1_2_PLUS;NETSTANDARD1_3_PLUS;NETSTANDARD1_4_PLUS;NETSTANDARD1_5_PLUS;NETSTANDARD1_6_PLUS</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard2.0'">$(DefineConstants);NETSTANDARD;EXTENSION_METHODS;LINQ;ASYNC;NEW_REFLECTION;NETSTANDARD1_0_PLUS;NETSTANDARD1_1_PLUS;NETSTANDARD1_2_PLUS;NETSTANDARD1_3_PLUS;NETSTANDARD1_4_PLUS;NETSTANDARD1_5_PLUS;NETSTANDARD1_6_PLUS;NETSTANDARD2_0_PLUS</DefineConstants>
+  </PropertyGroup>
+
+</Project>
