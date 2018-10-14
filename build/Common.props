@@ -13,4 +13,13 @@
     <None Remove="**\!--*\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="**\~--*" />
+    <EmbeddedResource Remove="**\~--*" />
+    <None Remove="**\~--*" />
+    <Compile Remove="**\~--*\**" />
+    <EmbeddedResource Remove="**\~--*\**" />
+    <None Remove="**\~--*\**" />
+  </ItemGroup>
+
 </Project>
