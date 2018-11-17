@@ -4,4 +4,4 @@ This repository is designed to be used as a submodule for including MSBuild prop
 
 ## License
 
-This work is licensed simply so that it can be used with other NoGoodDeed projects.
+This work is licensed simply so that it can be used with other MadReflection projects.
