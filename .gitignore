@@ -357,9 +357,9 @@ MigrationBackup/
 # Unused but retained
 ~--*
 
-**/Properties/launchSettings.json
-
 VisualStudio.gitignore
+
+**/Properties/launchSettings.json
 
 ## [/custom]
 ####################################################################################################
